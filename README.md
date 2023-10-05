@@ -1,11 +1,13 @@
-## My Project
+## monitoring-accelerator
 
-TODO: Fill this README out!
+This project contains accelerators for monitoring AWS Services by CloudWatch Alarms that you can use to create alarms easily
 
-Be sure to:
+Cloudwatch alerts for Amazon ElastiCache (Redis)
 
-* Change the title in this README
-* Edit your repository description on GitHub
+1. Provide list of cache cluster Ids
+2. Provide list of SNS Notification for Alarm notification
+3. Review default values for thresholds  for CPU Utilization, EngineCPU Utilization, Database Memory Usage Percentage, Replication Lag, Freeable Memory, Current Connections
+4. Run terraform plan and apply
 
 ## Security
 
